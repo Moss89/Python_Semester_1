@@ -1,0 +1,25 @@
+The index expression find the value which is stored in the index position. Counting starts at 0. So animal[1] gave the 2nd letter in 
+elephant (in this case 'l'), and the index position [0] gave the first letter ('e'). Even though elephant has 8 letters, asking for
+the value at index position [8] will give an error (IndexError: string index out of range), as [8] would refer to a 9th letter. This
+is because we start from index position 0. So the 8 letter word would be represented as 0-7 with the index expression.
+
+0	1	2	3	4	5	6	7
+e	l	e	p	h	a	n	t
+
+
+animal = 'elephant'
+letter = animal[1]
+print(letter)
+
+
+letter = animal[0]
+print(letter)
+
+
+letter = animal[7]
+print(letter)
+
+letter = animal[8]
+print(letter)
+
+IndexError: string index out of range
