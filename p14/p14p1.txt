@@ -1,0 +1,57 @@
+R = recursive
+N = Non recursive
+All times in seconds
+
+Using:
+from datetime import datetime
+startTime = datetime.now()
+
+print(datetime.now() - startTime)
+
+Factorial of:
+100:
+R = 0
+N = 0
+
+200:
+R= 0.004218 
+N = 0
+
+400:
+R = 0.002993
+N = 0
+
+600:
+R = 0.005205
+N = 0
+
+700:
+R = 0.007015
+N = 0.000993
+
+800:
+R = 0.009012
+N = 0.000970
+
+900:
+R = 0.009974
+N = 0.000983
+
+950:
+R = 0.012987
+N = 0.001025
+
+970:
+R = 0.010970
+N = 0.000996
+ 
+
+
+
+It seems that the non-recursive function is faster than the recursive function. The time needed
+to complete increases at higher numbers, but it increases at a greater rate for the recursive
+function.
+
+
+
+

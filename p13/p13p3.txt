@@ -1,0 +1,20 @@
+i.) When I included print(print_max) at the end of p13p2,
+and ran the program, I was asked to enter 2 numbers as usual,
+and it gave the max number. Then, unlike in p13p2, it asked
+me to enter 2 numbers again, and gave the max again, and finally it
+printed None.
+
+This is because the first call to the function is from p13_2,
+then it is called again in the print function, and then the 
+print_max has no return value so the default return to 
+print is None.
+
+ii.)
+If I omit the brackets from the p13p2 code, then nothing happens, as the brackets 
+as necessary syntax to run the function.
+
+iii.)
+Here, the function runs fine due to the code in p13p2, but then
+it prints <function print_max at 0x00BE5150, which seems to
+mean that printing the function name without the brackets 
+returns the memory address. 

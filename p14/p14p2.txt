@@ -1,0 +1,4 @@
+The recursive function crashes around the 995th to 1000th recursion when I ran it, 
+(maximum recursion depth), showing that the non-recursive function is better for 
+numbers larger than this, as the non recursive function didn't crash even when obscenely 
+high numbers were entered.
